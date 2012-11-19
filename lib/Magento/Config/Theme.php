@@ -235,9 +235,9 @@ class Magento_Config_Theme extends Magento_Config_XmlAbstract
      */
     protected function _ensureThemeExists($package, $theme)
     {
-        if (!isset($this->_data[$package]['themes'][$theme])) {
+        /*if (!isset($this->_data[$package]['themes'][$theme])) {
             throw new Magento_Exception('Unknown theme "' . $theme . '" in "' . $package . '" package.');
-        }
+        }*/
     }
 
     /**
